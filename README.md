@@ -9,12 +9,10 @@
 
 <p align="center">A free and open-source SMS/Call bombing application</p>
 
-## NOTES:
+## NOTE:
 
 
 > **Due to the overuse of script, a bunch of APIs have been taken offline. It is okay if you do not receive all the messages.**
-
-> **Termux version from Play Store is not supported since 2019, please use the latest version from F-Droid Store!**
 
 
 - The application requires active internet connection to contact the APIs
@@ -118,10 +116,10 @@ bash PBomb.sh
 
 To use the application, type in the following commands in MacOS terminal:
 
-##### Install via Homebrew
+##### Install Brew
 
 ```shell script
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ````
 
 ##### Install dependencies:
@@ -153,21 +151,12 @@ The package `toilet` cannot be installed yet on macOS. But PBomb does still work
 - Mail **[scpketer](https://github.com/scpketer)** at scpketer@protonmail.ch
 - Mail **[0n1cOn3](https://github.com/0n1cOn3)** at 0n1cOn3@gmx.ch
 - Ping **Rieltar** at https://t.me/RieltarReborn
-- Check **[Bishal](https://github.com/kbshal)** at https://github.com/kbshal
 
 
 ### Donators:
 
 - **[34D30Y](34db0y@protonmail.com)**
 - **SC AMAN**
-
-### TODO:
-
-- [x] Make Code More Readable and Extensible
-- [ ] Add More Mail Spam APIs
-- [ ] Add More SMS Spam APIs
-- [ ] Add More Call Spam APIs
-- [ ] Resolve threading issue in some devices
 
 ## FAQ
 
